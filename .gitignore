@@ -77,5 +77,3 @@ lint/tmp/
 lint/reports/
 
 local.properties
-
-gradle/*
