@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity{
             if(true){
                 textView.append(" [unavailable]");
 
-                ARouter.getInstance().build(RouterMap.LOGIN_ACTIVITY).navigation();
+                ARouter.getInstance().build(RouterMap.LOGIN_ACTIVITY).navigation(MainActivity.this);
             }
         }
     }

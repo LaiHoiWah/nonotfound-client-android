@@ -10,7 +10,6 @@
         android:id="@+id/main_activity_textView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="left"
-    />
+        android:gravity="left"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
