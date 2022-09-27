@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity{
         textView.atNewLine("task > login checking...");
 
         if(true){
-            textView.atNewLine("task > user XXX [unavailable]");
+            textView.atNewLine("task > user XXX [available]");
         }
     }
 
