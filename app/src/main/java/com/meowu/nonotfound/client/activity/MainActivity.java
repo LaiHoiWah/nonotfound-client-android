@@ -54,9 +54,7 @@ public class MainActivity extends AppCompatActivity{
             textView.atNewLine("task > version: " + version);
 
             if(true){
-                textView.append(" [unavailable]");
-
-                ARouter.getInstance().build(RouterMap.LOGIN_ACTIVITY).navigation(MainActivity.this);
+                textView.append(" [available]");
             }
         }
     }
@@ -81,5 +79,7 @@ public class MainActivity extends AppCompatActivity{
     private void redirect(){
         textView.atNewLine("task > everything is OK !!");
         textView.atNewLine("task > redirecting...");
+
+        ARouter.getInstance().build(RouterMap.HOME_ACTIVITY).navigation();
     }
 }
