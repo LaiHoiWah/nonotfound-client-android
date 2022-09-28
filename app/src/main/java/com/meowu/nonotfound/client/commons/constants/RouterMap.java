@@ -9,6 +9,4 @@ public interface RouterMap{
     String REGISTER_ACTIVITY = "/activity/register";
 
     String HOME_ACTIVITY = "/activity/home";
-
-    String HOME_FRAGMENT_TAG = "home_fragment_tag";
 }

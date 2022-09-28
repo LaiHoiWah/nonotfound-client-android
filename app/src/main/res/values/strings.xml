@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Nonotfound</string>
+
+    <!-- font-awesome -->
+    <string name="user_circle_o">&#xf2be;</string>
 </resources>

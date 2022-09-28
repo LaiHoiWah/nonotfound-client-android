@@ -7,6 +7,13 @@
     android:layout_height="match_parent"
     tools:context=".activity.HomeActivity">
 
+    <com.meowu.nonotfound.client.view.NAwesomeIconView
+        android:id="@+id/user_info"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/user_circle_o"
+        tools:ignore="MissingConstraints"/>
+
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/home_activity_tab"
         android:layout_width="match_parent"
@@ -16,6 +23,8 @@
         app:tabMode="scrollable"
         app:tabPaddingEnd="0dp"
         app:tabPaddingStart="0dp"
-        tools:ignore="MissingConstraints"/>
+        tools:ignore="MissingConstraints">
+
+    </com.google.android.material.tabs.TabLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
